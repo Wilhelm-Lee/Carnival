@@ -1,7 +1,7 @@
 # Welcome to Carnival!🥳
 
-Project: __[Carnival - Study - C]__
-Compiler: x86_64-w64-mingw32
+Project: __[Carnival - Study - C]__  
+Compiler: x86_64-w64-mingw32  
 IDE: [Embarcadero](https://www.embarcadero.com/) [Dev-Cpp](https://www.embarcadero.com/free-tools/dev-cpp)
 
 <u>***Precaution: ISO-C99 standard is majorly used in development.***</u>
