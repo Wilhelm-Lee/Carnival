@@ -23,6 +23,6 @@ They are:
 The MinGW one is obviously majorly for Windows;  
 The GNU one is yet again, apparently mostly for GNU/Linux;
 
-BTW, if you'd like to have C/CXX compilers on Android, there's my project [Attraction](https://github.com/WilliamPascal/Attraction) (Still on early development stage).
+BTW, if you'd like to have C/CXX compilers on Android, there's my project [Attraction(Early development stage)](https://github.com/WilliamPascal/Attraction).
 
 If there were any questions, please contact via e-mail at "williampascal_official@outlook.com". I might not be reply in time, thank you.
