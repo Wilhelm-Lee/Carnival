@@ -1,0 +1,4 @@
+IN _array.h DEFINED _ARRAY_H AS NIL ONCE NOTDEF
+IN _array.h DEFINED length_t AS NIL ONCE NOTDEF
+
+

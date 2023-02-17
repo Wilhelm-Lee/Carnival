@@ -1,0 +1,5 @@
+Note: (M) is for "macro"
+
+IN _array.h TYPEDEF unsigned long AS _length_t ONCE (M)(length_t) NOTDEF
+IN _array.h TYPEDEF length_t AS _length_t
+

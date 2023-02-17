@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Carnival
+Type=Application
+Exec=/usr/bin/wine /home/william/.wine/drive_c/windows/command/start.exe "C:\\Program Files (x86)\\Embarcadero\\Dev-Cpp\\ConsolePauser.exe" "Z:\\home\\william\\Documents\\Projects\\Carnival_MinGW\\exe\\carnival.exe"
+Icon=/home/william/Documents/Projects/Carnival_MinGW/icon/CarnivalIcon128.ico
+Categories=Development
+
