@@ -18576,3 +18576,80 @@ Compilation results...
 - Output Filename: C:\users\william\Documents\Projects\Carnival_MinGW\exe\Carnival.exe
 - Output Size: 468.228515625 KiB
 - Compilation Time: 0.96s
+
+17/02/2023 09:00:32: Appending to log...
+
+Rebuilding whole project...
+--------
+- Project Filename: C:\users\william\Documents\Projects\Carnival_MinGW\Carnival.dev
+- Compiler Name: TDM-GCC 9.2.0 64-bit Debug
+
+Building makefile...
+--------
+- Filename: C:\users\william\Documents\Projects\Carnival_MinGW\Makefile.win
+- Resource File: C:\users\william\Documents\Projects\Carnival_MinGW\obj\Carnival_private.res
+
+Processing makefile...
+--------
+- Makefile Processor: C:\Program Files (x86)\Embarcadero\Dev-Cpp\TDM-GCC-64\bin\mingw32-make.exe
+- Command: mingw32-make.exe -f "C:\users\william\Documents\Projects\Carnival_MinGW\Makefile.win" clean all
+
+C:\Program Files (x86)\Embarcadero\Dev-Cpp\devcpp.exe INTERNAL_DEL obj/main.o obj/_array.o obj/_var.o obj/Carnival_private.res exe/Carnival.exe
+Start deleting...
+Deleting: obj/main.o Ok
+Deleting: obj/_array.o Ok
+Deleting: obj/_var.o Ok
+Deleting: obj/Carnival_private.res Ok
+Deleting: exe/Carnival.exe Ok
+Deleting complete...
+
+gcc.exe -D__DEBUG__ -c src/main.c -o obj/main.o -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -O2 -std=c99 -Wall -pg -g3
+src/main.c: In function 'main':
+src/main.c:45:25: warning: unknown conversion type character 'l' in format [-Wformat=]
+   45 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                         ^
+src/main.c:45:19: warning: too many arguments for format [-Wformat-extra-args]
+   45 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                   ^~~~~~~~~~~
+src/main.c:45:25: warning: unknown conversion type character 'l' in format [-Wformat=]
+   45 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                         ^
+src/main.c:45:19: warning: too many arguments for format [-Wformat-extra-args]
+   45 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                   ^~~~~~~~~~~
+src/main.c:49:25: warning: unknown conversion type character 'l' in format [-Wformat=]
+   49 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                         ^
+src/main.c:49:19: warning: too many arguments for format [-Wformat-extra-args]
+   49 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                   ^~~~~~~~~~~
+src/main.c:49:25: warning: unknown conversion type character 'l' in format [-Wformat=]
+   49 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                         ^
+src/main.c:49:19: warning: too many arguments for format [-Wformat-extra-args]
+   49 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                   ^~~~~~~~~~~
+src/main.c:54:25: warning: unknown conversion type character 'l' in format [-Wformat=]
+   54 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                         ^
+src/main.c:54:19: warning: too many arguments for format [-Wformat-extra-args]
+   54 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                   ^~~~~~~~~~~
+src/main.c:54:25: warning: unknown conversion type character 'l' in format [-Wformat=]
+   54 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                         ^
+src/main.c:54:19: warning: too many arguments for format [-Wformat-extra-args]
+   54 |   fprintf(stdout, "%p %llu\n", _v._addr, _v._sz);
+      |                   ^~~~~~~~~~~
+gcc.exe -D__DEBUG__ -c src/_array.c -o obj/_array.o -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -O2 -std=c99 -Wall -pg -g3
+gcc.exe -D__DEBUG__ -c src/_var.c -o obj/_var.o -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -O2 -std=c99 -Wall -pg -g3
+windres.exe -i Carnival_private.rc --input-format=rc -o obj/Carnival_private.res -O coff 
+gcc.exe -D__DEBUG__ obj/main.o obj/_array.o obj/_var.o obj/Carnival_private.res -o exe/Carnival.exe -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc -lm -lm -pg -g3
+
+Compilation results...
+--------
+- Errors: 0
+- Warnings: 12
+- Output Filename: C:\users\william\Documents\Projects\Carnival_MinGW\exe\Carnival.exe
+- Output Size: 468.228515625 KiB
+- Compilation Time: 0.95s

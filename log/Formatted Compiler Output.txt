@@ -6544,3 +6544,27 @@
 54	19	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] too many arguments for format [-Wformat-extra-args]
 54	25	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] unknown conversion type character 'l' in format [-Wformat=]
 54	19	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] too many arguments for format [-Wformat-extra-args]
+
+17/02/2023 09:00:32: Appending to log...
+
+			Start deleting...
+		C:\users\william\Documents\Projects\Carnival_MinGW\Deleting	obj/main.o Ok
+		C:\users\william\Documents\Projects\Carnival_MinGW\Deleting	obj/_array.o Ok
+		C:\users\william\Documents\Projects\Carnival_MinGW\Deleting	obj/_var.o Ok
+		C:\users\william\Documents\Projects\Carnival_MinGW\Deleting	obj/Carnival_private.res Ok
+		C:\users\william\Documents\Projects\Carnival_MinGW\Deleting	exe/Carnival.exe Ok
+			Deleting complete...
+			
+		C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	In function 'main':
+45	25	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] unknown conversion type character 'l' in format [-Wformat=]
+45	19	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] too many arguments for format [-Wformat-extra-args]
+45	25	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] unknown conversion type character 'l' in format [-Wformat=]
+45	19	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] too many arguments for format [-Wformat-extra-args]
+49	25	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] unknown conversion type character 'l' in format [-Wformat=]
+49	19	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] too many arguments for format [-Wformat-extra-args]
+49	25	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] unknown conversion type character 'l' in format [-Wformat=]
+49	19	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] too many arguments for format [-Wformat-extra-args]
+54	25	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] unknown conversion type character 'l' in format [-Wformat=]
+54	19	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] too many arguments for format [-Wformat-extra-args]
+54	25	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] unknown conversion type character 'l' in format [-Wformat=]
+54	19	C:\users\william\Documents\Projects\Carnival_MinGW\src\main.c	[Warning] too many arguments for format [-Wformat-extra-args]
