@@ -1,4 +1,4 @@
-# Welcome to Carnival!🥳
+# Welcome to Carnival MinGW!🥳
 
 Project: __[Carnival - Study - C]__  
 Compiler: x86_64-w64-mingw32  
