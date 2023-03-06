@@ -2,7 +2,7 @@
 Friend project to: [Jungle - Study - Java] written in C. More supplies towards GNU/Linux and Microsoft Windows.
 
 \[6th March, 2023\]  
-Due to project code responsibility allocation controversial issue, previous "Carnival" or "Carnival_MinGW" and "Carnival_GNU" is found ambiguous to be continue on development.  
+Due to project code responsibility allocation controversial issue, previous "Carnival" or "Carnival_MinGW" and "Carnival_GNU" are found ambiguous to be continue on development.  
 Thus, we created a new repository for dividing job responsibility, for Carnival, for all.
 
 We will not change our original promise in file README from previous storage.  
