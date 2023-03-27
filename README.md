@@ -29,7 +29,7 @@ Here they are:
 >\[31st Jan, 2023\]  
 >Carnival is currently in development, this project will roughly go on the stage with polish in about 6 more months(in the worst scenario).
 >
->For development, Carnival is now devided into two parts for multi-platform performance.  
+>For development, Carnival is now divided into two parts for multi-platform performance.  
 >They are:
 >  - Carnival_MinGW
 >  - Carnival_GNU  
