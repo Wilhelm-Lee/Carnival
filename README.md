@@ -3,9 +3,9 @@
 ## Menu
 * [Brief](#Brief)
 * [Features](#Features)
-* [Support for TTY](#Support%20for%20TTY)
+* [Support for TTY](#support-for-tty)
 * [Compilers](#Compilers)
-* [C Standard](#C%20Standard)
+* [C Standard](#c-standard)
 * [Build](#Build)
 * [DevLog](#DevLog)
 
@@ -25,12 +25,13 @@ In current stage, it's mainly supported by:
 * [MinGW](https://www.mingw-w64.org/)
 
 Please note, unlike what we did preivously, Carnival is now assembled with those compilers' support.  
-That means, you could have used your compilers to build this project and execute the result regaurdless about what your compilers are as long as they are in support. :)[^1.1]
+That means, you could have used your compilers to build this project and execute the result regardless about what your compilers are as long as they are in support. :)[^1.1]
 
 ## C Standard
 In Carnival, we use __C99__[^2] standard.
 
 ## Build
+*Please be aware, if you want to use your own compiler, then you need to use file "build.sh" first, in order to set proper environment variables. (e.t. C Compiler, Output directory)*
 
 ## DevLog
 __\[6th Mar, 2023\]__  
