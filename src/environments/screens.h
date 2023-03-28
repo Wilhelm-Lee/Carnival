@@ -5,7 +5,7 @@
 
 static garea scn_area = {-1, -1};
 
-int
+void
 scn_init(garea *garea);
 
 #endif /* NO SCREENS_H */
