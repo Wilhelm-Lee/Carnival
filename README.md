@@ -1,13 +1,13 @@
 # Carnival
 
 ## Menu
-* [Brief](#Brief)
-* [Features](#Features)
+* [Brief](#brief)
+* [Features](#features)
 * [Support for TTY](#support-for-tty)
-* [Compilers](#Compilers)
+* [Compilers](#compilers)
 * [C Standard](#c-standard)
-* [Build](#Build)
-* [DevLog](#DevLog)
+* [Build](#build)
+* [DevLog](#devlog)
 * [Trouble Shooting](#trouble-shooting)
 
 ## Brief
@@ -89,7 +89,7 @@ A1: I mean, it could help users with following:
 * Powerful Scheduler
 * Todo list with lang...  
 
-Didn't I just declared all these in section [Features](#Features)?  
+A1: Didn't I just declared all these in section [Features](#Features)?  
 A0: Yep.
 
 Q2: Can I modify this project?  
