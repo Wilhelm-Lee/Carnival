@@ -25,11 +25,11 @@ A friend project to: [__\[Jungle - Study - Java\]__](https://github.com/WilliamP
 * TUI Windowing
 * Graceful
 * Customisable
-* Impressive to use on first, impossible to get rid off it later on. :)[^1.1]
+* Impressive to use on first, impossible to get rid of it later on. :)[^1.1]
 * Has features above ;)[^1.2]
 
 ## Support for TTY
-Carnival's output is simply __ASCII__[^1] (TUI). However, colouring is not strictly required, as an compatibility for non-colourable terminals.  
+Carnival's output is simply __ASCII__[^1] (TUI). However, colouring is not strictly required, which as an compatibility for non-colourable terminals.  
 For TTY, our first priority, we do provide basic rendering on most terminals.  
 
 ## Compilers
@@ -49,12 +49,25 @@ In Carnival, we use __C99__[^2] standard.
 
 0. ### Configure
    * #### Edit `config.sh` until satisfied. :)[^1.1]
-0. ### Build
-   * #### Input "make" within your terminal.
-   * #### Wait until above command is done.
-   * #### Input "./Carnival" to execute.
+0. ### Compile
+   ```sh
+   cd Carnival && make
+   ```
 0. ### Done
-   * #### _~~What more do ya want?~~_ Enjoy!
+   #### Enjoy! Xhe xhe.
+
+   * ##### Run for Unix-like:
+      ```sh
+      ./build/Carnival
+      ```
+   * ##### Run for Windows
+      ```
+      .\build\Carnival.exe
+      ```
+      or
+      ```
+      #MOUSE CLICK x2#
+      ```
 
 ## DevLog
 __\[6th Mar, 2023\]__  
@@ -94,21 +107,21 @@ A0: Yep.
 
 Q2: Can I modify this project?  
 A2: Yes, you can. :)[^1.1]  
-__But__, only to improve. ;)[^1.2]
+$~~~~~~$ __But__, only to improve. ;)[^1.2]
 
 Q3: What is [ASCII](https://computersciencewiki.org/index.php/ASCII)?  
 A3: Thank you, that will be all.
 
-Q4: How do I ~black~mail ya? 😈  
+Q4: How do I ~black~mail ya? 😈 $~~~~~~~~~~~~~~~~~~~~$ . 。o O ( pls don't )  
 A4: "williampascal_official@outlook.com" 😅
 
 Q5: There were no matching questions here with mine.  
 A5: Well, you can always put up an ***issue*** to ask. :)[^1.1]
 
 Q6: How many faces drawn in ASCII are there?  
-A6: 钝角
+A6: Segmentation fault (core dumped)
 
 [^1]: Not the final decision. We are willing to use [Unicode](https://home.unicode.org/) in the short future.  
-[^1.1]: A smiling face drawn in ASCII.  
+[^1.1]: A smiling face drawn in ASCII. :)[^1.1]  
 [^1.2]: A smiling winking face drawn in ASCII.  
 [^2]: [ISO/IEC 9899:1999](https://www.iso.org/standard/29237.html)  
