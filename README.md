@@ -112,7 +112,7 @@ $~~~~~~$ __But__, only to improve. ;)[^1.2]
 Q3: What is [ASCII](https://computersciencewiki.org/index.php/ASCII)?  
 A3: Thank you, that will be all.
 
-Q4: How do I ~black~mail ya? 😈 $~~~~~~~~~~~~~~~~~~~~$ . 。o O ( pls don't )  
+Q4: How do I ~black~mail ya? 😈 $~~~~~~~~~~~~~~~~~~~~$ . o O ( pls don't )  
 A4: "williampascal_official@outlook.com" 😅
 
 Q5: There were no matching questions here with mine.  
