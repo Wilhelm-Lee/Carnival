@@ -11,6 +11,7 @@
 #if defined __gnu_linux__ || defined __linux__ \
             || defined __OpenBSD__ || defined __FreeBSD__ || __GNUC__
 # define __CARNIVAL_UNIX__
+/* Microsoft(TM) Windows(R) */
 #elif defined __MINGW32__ || __MINGW64__ /* __gnu_linux__ || __linux__
                                             || __OpenBSD__ ||  __FreeBSD__
                                             || __GNUC__ */

@@ -7,6 +7,6 @@
 # executed.
 
 export Carnival_CC=""               # If needed, replace it with your desired compiler
-                                    # Cannot figure out? Go to https://github.com/WilliamPascal/Carnival
+                                    # Cannot figure out? Go to https://github.com/WilliamPascal/Carnival#build
 
 export Carnival_flag="-std=c99 -Wall"

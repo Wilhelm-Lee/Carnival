@@ -44,6 +44,9 @@ That means, you could have used your compilers to build this project and execute
 ## C Standard
 In Carnival, we use __C99__[^2] standard.
 
+## Hardware requirement
+For Carnival, the minimum bit width for CPU is **16 bits**. As the architecture , use 8086 for the most "proper" performance.[^3]
+
 ## Build
 *Please be aware, if you want to use your own compiler, then you need to check file "config.sh" first, in order to set proper environment variables.*
 
@@ -125,3 +128,4 @@ A6: Segmentation fault (core dumped)
 [^1.1]: A smiling face drawn in ASCII. :)[^1.1]  
 [^1.2]: A smiling winking face drawn in ASCII.  
 [^2]: [ISO/IEC 9899:1999](https://www.iso.org/standard/29237.html)  
+[^3]: However, it is far too early to conclude about what architecture to use could get the "best" performance to this very project. Besides, we haven't even start profiling to this project. Thus, what the line said was all in a theoretical hypnosis. :(

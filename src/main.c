@@ -1,3 +1,4 @@
+#include "actors/painter.h"
 
 int
 main(int argc, char **argv)
