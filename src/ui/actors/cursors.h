@@ -5,7 +5,8 @@
 
 typedef struct S_cursor
 {
-  coordinate *_pos;
-} cursor;
+  S_coordinate *_pos;
+  char *_selection;
+} cursor_t;
 
 #endif /* NO CURSORS_H */

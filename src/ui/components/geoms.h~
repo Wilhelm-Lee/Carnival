@@ -1,7 +1,7 @@
 #ifndef GEOMS_H
 # define GEOMS_H
 
-#include "../defs.h"
+#include "../../defs.h"
 #include "deco.h"
 
 /* "GAREA" is stands for "Geometry Area";
@@ -12,33 +12,33 @@ typedef struct S_garea
 {
   int _height;
   int _width;
-} garea;
+} geom_garea_t;
 
 typedef struct S_coordinate
 {
   int _x;
   int _y;
-} coordinate;
+} geom_coordinate_t;
 
-typedef coordinate _init_point;
+typedef geom_coordinate_t _init_point;
 /* To have objects movement recorded, we use _PATH to contain
    its movement for x and y */
-typedef coordinate path;
+typedef geom_coordinate_t path_t;
 
 typedef struct S_geom_meta
 {
-  _init_point *_cooip;
-  garea       *_garea;
-} _geom_meta;
+  _init_point *_coor_init;
+  geom_garea_t *_garea;
+} geom_meta_t;
 
 typedef struct _S_geom_quadrate
 {
-  _geom_meta *_meta;
+  geom_meta_t *_meta;
   int         _len_a;
   int         _len_b;
-} _geom_quadrate;
+} geom_quadrate_t;
 
 int
-geom_quadrate_init(_geom_quadrate quadrate);
+geom_quadrate_init(geom_quadrate_t quadrate);
 
 #endif /* NO GEOMS_H */
