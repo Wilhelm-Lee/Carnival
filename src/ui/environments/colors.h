@@ -11,32 +11,33 @@
 /* Color table */
 typedef enum E_color16
 {
-  BLACK = 0, /* #000000 */
-  MAROON,    /* #770000 */
-  GREEN,     /* #007700 */
-  OLIVE,     /* #777700 */
-  NAVY,      /* #000077 */
-  PURPLE,    /* #770077 */
-  TEAL,      /* #007777 */
-  GREY,      /* #777777 */
-  SILVER,    /* #AAAAAA */
+  BLACK = 0, /* 0 #000000 */
+  MAROON,    /* 1 #770000 */
+  GREEN,     /* 2 #007700 */
+  OLIVE,     /* 3 #777700 */
+  NAVY,      /* 4 #000077 */
+  PURPLE,    /* 5 #770077 */
+  TEAL,      /* 6 #007777 */
+  GREY,      /* 7 #777777 */
+  SILVER,    /* 8 #AAAAAA */
 
-  RED,       /* #FF0000 */
-  LIME,      /* #00FF00 */
-  YELLOW,    /* #FFFF00 */
-  BLUE,      /* #0000FF */
-  FUCHSIA,   /* #FF00FF */
-  AQUA,      /* #00FFFF */
-  WHITE      /* #FFFFFF */
+  RED,       /* 9 #FF0000 */
+  LIME,      /* A #00FF00 */
+  YELLOW,    /* B #FFFF00 */
+  BLUE,      /* C #0000FF */
+  FUCHSIA,   /* D #FF00FF */
+  AQUA,      /* E #00FFFF */
+  WHITE      /* F #FFFFFF */
 } color16_t;
 
 typedef struct S_colorhex
 {
   /*
-    0 1 1 1 1 1 1
-    2 6 6 6 6 6 6
+    Possibility enumeration
+    0 1 1 1 1 1 1  // x10
+    2 6 6 6 6 6 6  // x1
    ---------------
-  # G X X Y Y Z Z
+  # G X X Y Y Z Z  // PATTERN
     0 0 0 0 0 0 0
     1 1 1 1 1 1 1
       2 2 2 2 2 2
@@ -53,6 +54,11 @@ typedef struct S_colorhex
       D D D D D D
       E E E E E E
       F F F F F F
+
+    Example:
+      #1FF0332
+      Means, a object which will be rendered on foreground,
+      in colour represented by a hexadecimal value "FF0332".
   */
 
   bool _G;    /* TRUE for foreground; FALSE for background. */

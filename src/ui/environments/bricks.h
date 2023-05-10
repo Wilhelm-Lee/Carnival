@@ -1,9 +1,12 @@
 #ifndef BRICKS_H
 # define BRICKS_H
 
-typedef struct bricks
+# include "colors.h"
+
+typedef struct bricks_S
 {
-  color_t
-}
+  colorhex_t *_color;
+  bool _is_cursor_on;
+} bricks_t;
 
 #endif /* NO BRICKS_H */
