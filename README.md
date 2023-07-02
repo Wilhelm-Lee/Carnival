@@ -94,6 +94,11 @@ Here they are:
 >BTW, if you'd like to have C/CXX compilers on Android, there's my project [Attraction (Early development stage)](https://github.com/WilliamPascal/Attraction).
 >If there were any questions, please contact via e-mail at "williampascal_official@outlook.com". I might not be reply in time, thank you.
 
+__\[2nd Jul, 2023\]__  
+Delayed due to unforeseeable causes, major progress isn't affected.  
+Dependencies were increased, more work has to be put in.  
+I have no companionship on developing this project, please contact me if you got any questions.
+
 ## Trouble shooting
 Q0: What license does this project hold?  
 A0: [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
